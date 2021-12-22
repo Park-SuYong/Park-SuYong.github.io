@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "JAVA 기초"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+ - title: "소프트웨어 개발 및 응용과정"
+   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
