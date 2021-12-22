@@ -8,7 +8,7 @@ categories:
 
 * 문제풀이
   * 약수구하기
-    
+    ```
     import java.util.Scanner;
 
     public class Test01 {
@@ -23,7 +23,7 @@ categories:
         }
       }
     }
-    
+    ```
 
 
   * 최대공약수 구하기
