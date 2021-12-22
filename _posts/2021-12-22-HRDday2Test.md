@@ -76,7 +76,7 @@ categories:
     }
     ```
   * 소수 여부구하기
-    
+    ```
     import java.util.Scanner;
     
     public class Test04 {
@@ -96,9 +96,9 @@ categories:
         }
       }
     }
-    
+    ```
   * 완전수 구하기
-    
+    ```
     public class Test05 {
       public static void main(String[] args) {
         System.out.println("완전수 구하기");
@@ -115,10 +115,10 @@ categories:
         }
       }
     }
-    
+    ```
 
   * 369 게임
-    
+    ```
     public class Test06 {
       public static void main(String[] args) {
         System.out.println("369게임 시작");
@@ -133,10 +133,10 @@ categories:
          }
        }
      }
-    
+    ```
 
   * 서로소 여부구하기
-    
+    ```
     import java.util.Scanner;
     
     public class Test07 {
@@ -166,4 +166,4 @@ categories:
          }
        }
     }
-    
+    ```
