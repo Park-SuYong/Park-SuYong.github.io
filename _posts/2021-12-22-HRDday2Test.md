@@ -27,7 +27,7 @@ categories:
 
 
   * 최대공약수 구하기
-    
+    ```
     import java.util.Scanner;
 
     public class Test02 {
@@ -50,11 +50,11 @@ categories:
         System.out.println("최대공약수는 "+ max +"입니다");
       }
     }
-    
+    ```
 
 
   * 최소공배수 구하기
-    
+    ```
     import java.util.Scanner;
     
     public class Test03 {
@@ -74,7 +74,7 @@ categories:
         System.out.println(min);
       }
     }
-    
+    ```
   * 소수 여부구하기
     
     import java.util.Scanner;
