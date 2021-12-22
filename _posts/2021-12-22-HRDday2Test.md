@@ -7,7 +7,7 @@ categories:
 ## Day2 과제
 
 * 문제풀이
-  * 1. 약수구하기
+  * 약수구하기
     ```
     import java.util.Scanner;
 
@@ -26,7 +26,7 @@ categories:
     ```
 
 
-  * 2. 최대공약수 구하기
+  * 최대공약수 구하기
     ```
     import java.util.Scanner;
 
@@ -53,7 +53,7 @@ categories:
     ```
 
 
-  * 3. 최소공배수 구하기
+  * 최소공배수 구하기
     ```
     import java.util.Scanner;
     
@@ -75,7 +75,7 @@ categories:
       }
     }
     ```
-  * 4. 소수 여부구하기
+  * 소수 여부구하기
     ```
     import java.util.Scanner;
     
@@ -97,7 +97,7 @@ categories:
       }
     }
     ```
-  * 5. 완전수 구하기
+  * 완전수 구하기
     ```
     public class Test05 {
       public static void main(String[] args) {
@@ -117,7 +117,7 @@ categories:
     }
     ```
 
-  * 6. 369 게임
+  * 369 게임
     ```
     public class Test06 {
       public static void main(String[] args) {
@@ -135,7 +135,7 @@ categories:
      }
     ```
 
-  * 7. 서로소 여부구하기
+  * 서로소 여부구하기
     ```
     import java.util.Scanner;
     
