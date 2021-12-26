@@ -10,7 +10,7 @@ categories:
   * 배열의 모든 요소를 자신의 앞 항목들과 하나씩 비교해서 자신이 들어가야 할 자리를 찾아 해당 자리로 들어가고 이후의 항목을 한칸씩 미루는 방식
 
   ```
-    package task;
+  package task;
 
   import java.util.Random;
 
@@ -58,4 +58,51 @@ categories:
   2번째 - [ 5 7 8 5 4 ]
   3번째 - [ 5 5 7 8 4 ]
   4번째 - [ 4 5 5 7 8 ]
+  ```
+  
+* 선택 정렬
+  * 첫 항목부터 자신 이후의 항목중 최솟값/최댓값을 찾아 그 항목과 자신을 바꾸어 가장 작은/큰 항목을 앞에서부터 순서대로 옮기는 방법
+  
+  ```
+  package task;
+
+  import java.util.Random;
+
+  public class Task02 {
+	  public static void main(String[] args) {
+      int data[] = new int[5];
+      Random rand = new Random();
+
+      for (int i = 0; i < data.length; i++) {
+        data[i] = rand.nextInt(9) + 1;
+      } // 랜덤 배열 생성
+		
+      // 1차 출력
+      System.out.print("시작  - [ ");
+      for (int v : data) {
+        System.out.print(v + " ");
+      }
+      System.out.println("]");
+		
+      for (int i = 0; i < data.length-1; i++) {//마지막 자리는 할 필요가 없다
+        int minNum = i;
+        int j;
+        for (j = i+1; j < data.length; j++) {//자신 이후 항목들중 최소값을 찾는다
+          if(data[j]<data[minNum]) {//크기 비교
+          minNum = j;//가장 작은 인덱스 번호
+        }
+      }
+      int tmp = data[i]; //자리 교체
+      data[i] = data[minNum];
+      data[minNum] = tmp;
+			
+      // i회 진행할때마다 출력
+      System.out.print((i+1) + "번째 - [ ");
+      for (int v : data) {
+        System.out.print(v + " ");
+      }
+      System.out.println("]");
+      }		
+    }
+  }
   ```
