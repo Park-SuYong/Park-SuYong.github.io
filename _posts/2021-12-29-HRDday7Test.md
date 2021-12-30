@@ -72,7 +72,7 @@ public class Task01 {
 		int user[] = new int[lottSize];// 유저가 산 번호
 		String buy;// 살지 여부
 		int buyNum;// 몇장인지
-		int cnt = 0;// 당첨 횟수
+		int cnt;// 당첨 횟수
 		int lottNum = 45;// 숫자의 최댓값
 
 		while (true) {// 반복
@@ -88,6 +88,7 @@ public class Task01 {
 				System.out.print("당첨 번호는 ");
 				show(data);
 				System.out.println(" 입니다"); // 당첨번호 출력
+				cnt = 0;
 				for (int i = 0; i < buyNum; i++) {// 구매한 장수 만큼
 					makeLott(user, lottSize, lottNum);// 랜덤한 유저 복권을 만들고
 					cnt += check(data, user);// check 함수를 통해 당첨 횟수를 측정하고 결과를 보여준다
@@ -131,7 +132,7 @@ public class Task01 {
 [ 3 2 18 35 21 ] : 1점
 [ 5 21 45 34 7 ] : 0점
 [ 7 14 40 22 42 ] : 1점
-당첨 1회 축하합니다
+당첨 0회 축하합니다
 한번 더 복권을 주문하시겠습니까? : ys
 잘못된 입력을 하셨습니다
 복권을 주문하시겠습니까? : no
