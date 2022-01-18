@@ -1,6 +1,6 @@
 ---
-title: "JAVA 기초"
+title: "Category"
 layout: categories
-permalink: /JAVA 기초/
+permalink: /Category/
 author_profile: true
 ---
